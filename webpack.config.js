@@ -50,7 +50,7 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({
       hash: true,
-      title: 'React Boilerplate',
+      title: 'React Inline Css Converter',
       template: './src/index.html',
       filename: './index.html'
     })

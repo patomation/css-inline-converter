@@ -1,1 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 
+$silver: #bfbdc1;
+$gray: #6d6a75;
+$darkGray: #37323e;
+$lightOrange: #deb841;
+$darkOrange: #de9e36;
+
+body {
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+html, body, #root, .app {
+  height: 100%;
+  background: darken($darkGray, 15);
+  color: $darkOrange;
+}
+
+.panel {
+  background: darken($darkGray, 2) !important;
+}
+
+button {
+  background: $lightOrange !important;
+  color: $darkGray !important;
+}
+
+textarea {
+  background: darken($darkGray, 5);
+  color: $lightOrange;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid $darkOrange;
+  box-sizing : border-box;
+}
