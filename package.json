@@ -9,7 +9,7 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
-    "@patomation/react-ui-components": "^0.8.0-canary4",
+    "@patomation/react-ui-components": "^1.7.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },

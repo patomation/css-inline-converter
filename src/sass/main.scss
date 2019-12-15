@@ -16,23 +16,23 @@ body {
 html, body, #root, .app {
   height: 100%;
   background: darken($darkGray, 15);
-  color: $darkOrange;
+  // color: $darkOrange;
 }
 
 .panel {
-  background: darken($darkGray, 2) !important;
+  // background: darken($darkGray, 2) !important;
 }
 
 button {
-  background: $lightOrange !important;
-  color: $darkGray !important;
+  // background: $lightOrange !important;
+  // color: $darkGray !important;
 }
 
 textarea {
-  background: darken($darkGray, 5);
-  color: $lightOrange;
-  padding: 1rem;
-  border-radius: 5px;
-  border: 1px solid $darkOrange;
-  box-sizing : border-box;
+  // background: darken($darkGray, 5);
+  // color: $lightOrange;
+//   padding: 1rem;
+//   border-radius: 5px;
+//   border: 1px solid $darkOrange;
+//   box-sizing : border-box;
 }
