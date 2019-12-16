@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Center, Gutter, Input, Grid } from '@patomation/react-ui-components/src'
+import { Button, Center, Gutter, Input, Grid } from '@patomation/react-ui-components'
 import convert from './convert.js'
 import colorLuminance from '../../modules/colorLuminance.js'
 
